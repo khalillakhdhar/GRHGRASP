@@ -10,7 +10,7 @@ namespace GRHGRASP.model
     {
         public int Id { get; set; }
         public string Nom { get; set; }
-
+        public SalaireModel salaire { get; set; }
 
 
     }

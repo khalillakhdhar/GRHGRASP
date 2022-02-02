@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 using GRHGRASP.model;
 namespace GRHGRASP.repository
 {
-    interface CongeRepository
+    interface UserSalaireRepo
     {
-        void demander(int id);
-        List<CongeModel> getConges();
+        string afficheSalaire(EmployeeModel employee);
     }
 }
