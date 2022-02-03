@@ -42,11 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controllers\CongeController.cs" />
+    <Compile Include="controllers\EmployeeController.cs" />
+    <Compile Include="controllers\SalaireController.cs" />
+    <Compile Include="controllers\UserSalaireRepoController.cs" />
+    <Compile Include="model\CongeModel.cs" />
+    <Compile Include="model\EmployeeModel.cs" />
+    <Compile Include="model\SalaireModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="repository\CongeRepository.cs" />
+    <Compile Include="repository\EmployeeRepository.cs" />
+    <Compile Include="repository\SalaireRepository.cs" />
+    <Compile Include="repository\UserSalaireRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
